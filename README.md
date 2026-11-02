@@ -64,3 +64,12 @@ Projeto independente, sem vínculo com o IBGE. Mapa base © colaboradores do Ope
 
 **Maessa Oliveira** — agrimensora e projetista, graduanda em Engenharia de Software.
 [LinkedIn](https://www.linkedin.com/in/maessa-oliveira/) · Licença [MIT](LICENSE).
+
+## English
+
+**Map of Brazil's RBMC GNSS reference network (IBGE).** Shows each station's status over the last
+week, finds the nearest stations to your job site (Vincenty distance and azimuth on GRS80) and gives
+practical guidance for RTK, NTRIP or static post-processing. Data is refreshed daily by GitHub
+Actions from IBGE's public site logs and observation listings.
+
+👉 [Try it](https://maessa-oliveira.github.io/rbmc-mapa/) · `pytest` (updater) · `node --test` (geometry)
