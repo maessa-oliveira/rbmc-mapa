@@ -1,0 +1,40 @@
+name: CI e publicação
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+  # commits feitos pelo próprio Actions não disparam "push"; republica após a atualização diária
+  workflow_run:
+    workflows: ["Atualizar dados da RBMC"]
+    types: [completed]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: npm ci && pip install pytest
+      - run: npm test
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:e2e
+
+  deploy:
+    needs: test
+    if: github.ref == 'refs/heads/main' || github.event_name == 'workflow_run'
+    runs-on: ubuntu-latest
+    permissions: { pages: write, id-token: write }
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - run: mkdir _site && cp -r index.html estilo.css src vendor data docs _site/
+      - uses: actions/upload-pages-artifact@v3
+      - id: deployment
+        uses: actions/deploy-pages@v4

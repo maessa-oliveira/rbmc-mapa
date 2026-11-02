@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mapa da RBMC — base GNSS mais próxima</title>
+<meta name="description" content="Mapa das estações da RBMC (IBGE) com situação de funcionamento, distância e azimute até a sua obra e orientação prática para RTK, NTRIP e pós-processamento.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='6' fill='%231f7a6d'/><circle cx='16' cy='16' r='12' fill='none' stroke='%231f7a6d' stroke-width='2'/></svg>">
+<link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<div id="mapa" aria-label="Mapa das estações RBMC"></div>
+
+<aside id="painel">
+  <header>
+    <h1>Mapa da RBMC</h1>
+    <p class="sub">Estações GNSS de monitoramento contínuo do IBGE. Clique no mapa (ou informe a coordenada da obra) para ver as bases mais próximas.</p>
+  </header>
+
+  <form id="busca" autocomplete="off">
+    <label for="coord">Coordenada da obra (SIRGAS 2000)</label>
+    <div class="linha">
+      <input id="coord" placeholder="-12.9714, -38.5014  ou  12°58'17&quot;S 38°30'05&quot;W" inputmode="text">
+      <button type="submit">Ir</button>
+    </div>
+    <div class="linha">
+      <button type="button" id="btnGPS">📍 Minha localização</button>
+      <label class="chk"><input type="checkbox" id="soAtivas" checked> só ativas</label>
+    </div>
+    <p id="erro" class="erro" role="alert"></p>
+  </form>
+
+  <section id="resultado" hidden>
+    <h2>Bases mais próximas</h2>
+    <ol id="lista"></ol>
+    <p id="dica" class="dica"></p>
+  </section>
+
+  <section>
+    <h2>Estações</h2>
+    <input id="filtro" placeholder="Buscar por código, cidade ou UF (ex.: SSA1, Salvador, BA)">
+    <p id="resumo" class="resumo"></p>
+    <ul class="leg">
+      <li><i class="ativa"></i> ativa</li>
+      <li><i class="instavel"></i> instável</li>
+      <li><i class="parada"></i> sem dados recentes</li>
+    </ul>
+  </section>
+
+  <footer>
+    <span id="atualizado"></span><br>
+    Fonte: <a href="https://www.ibge.gov.br/geociencias/informacoes-sobre-posicionamento-geodesico/rede-geodesica/16258-rede-brasileira-de-monitoramento-continuo-dos-sistemas-gnss-rbmc.html" target="_blank" rel="noopener">IBGE — RBMC</a>.
+    Projeto independente, sem vínculo com o IBGE. Código aberto (MIT) ·
+    <a href="https://github.com/maessa-oliveira/rbmc-mapa">GitHub</a>
+  </footer>
+</aside>
+
+<script src="vendor/leaflet/leaflet.js"></script>
+<script type="module" src="src/app.js"></script>
+</body>
+</html>
