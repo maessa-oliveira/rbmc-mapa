@@ -102,6 +102,12 @@ def _ultimo_bloco(texto: str, secao: str, rotulo: str) -> dict[str, str]:
     return campos
 
 
+def _numero(txt: str) -> float | None:
+    """Primeiro número do campo, ou None (JSON não aceita NaN)."""
+    m = re.search(r"-?\d+(?:\.\d+)?", txt)
+    return float(m.group()) if m else None
+
+
 def ler_site_log(texto: str) -> dict:
     rec = _ultimo_bloco(texto, "3", "Receiver Type")
     ant = _ultimo_bloco(texto, "4", "Antenna Type")
@@ -112,7 +118,7 @@ def ler_site_log(texto: str) -> dict:
         "pais": _campo(texto, "Country or Region"),
         "lat": dms_compacto(_campo(texto, "Latitude (N is +)")),
         "lon": dms_compacto(_campo(texto, "Longitude (E is +)")),
-        "h": float(re.sub(r"[^\d.\-]", "", _campo(texto, "Elevation (m,ellips.)")) or "nan"),
+        "h": _numero(_campo(texto, "Elevation (m,ellips.)")),
         "receptor": rec.get("Receiver Type", ""),
         "sistemas": rec.get("Satellite System", ""),
         "antena": re.sub(r"\s+", " ", ant.get("Antenna Type", "")),
@@ -174,7 +180,7 @@ def main(argv=None) -> int:
         print("Menos de 50 estações — abortando para não publicar dado quebrado.", file=sys.stderr)
         return 1
     Path(a.saida).parent.mkdir(parents=True, exist_ok=True)
-    Path(a.saida).write_text(json.dumps(dados, ensure_ascii=False, indent=1), encoding="utf-8")
+    Path(a.saida).write_text(json.dumps(dados, ensure_ascii=False, indent=1, allow_nan=False), encoding="utf-8")
     print(f"{len(dados['estacoes'])} estações ({ativas} com dados nos últimos {a.dias} dias) -> {a.saida}")
     return 0
 

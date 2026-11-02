@@ -33,7 +33,7 @@ function popup(e) {
     <tr><td>Situação</td><td><span class="bola ${s.chave}"></span>${esc(s.texto)}</td></tr>
     <tr><td>Latitude</td><td>${dms(e.lat, 'lat')}</td></tr>
     <tr><td>Longitude</td><td>${dms(e.lon, 'lon')}</td></tr>
-    <tr><td>Alt. elipsoidal</td><td>${fmt(e.h, 2)} m</td></tr>
+    <tr><td>Alt. elipsoidal</td><td>${e.h == null ? '—' : `${fmt(e.h, 2)} m`}</td></tr>
     <tr><td>Receptor</td><td>${esc(e.receptor || '—')}</td></tr>
     <tr><td>Constelações</td><td>${esc(e.sistemas || '—')}</td></tr>
     ${e.antena ? `<tr><td>Antena</td><td>${esc(e.antena)}</td></tr>` : ''}

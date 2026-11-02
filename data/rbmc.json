@@ -963,7 +963,7 @@
    "pais": "BRA",
    "lat": 0.0,
    "lon": 0.0,
-   "h": NaN,
+   "h": null,
    "receptor": "TRIMBLE 4000SSI",
    "sistemas": "GPS",
    "antena": "TRM29659.00",

@@ -103,3 +103,21 @@ def test_gerar_completo():
     assert ids["SSA1"]["lon"] == pytest.approx(-38.50972222)
     assert d["sem_site_log"] == ["XXXX"]
     assert d["dias_consultados"] == ["2026-10-30", "2026-10-29"]
+
+
+def test_altitude_ausente_vira_none():
+    e = A.ler_site_log(LOG_BAIR.replace("723.92 m", "(m)"))
+    assert e["h"] is None
+
+
+def test_dados_publicados_sao_json_valido_para_o_navegador():
+    """O navegador rejeita NaN/Infinity: o arquivo publicado precisa ser JSON estrito."""
+    import json
+
+    def recusa(c):
+        raise ValueError(f"valor inválido no JSON: {c}")
+
+    caminho = Path(__file__).resolve().parents[1] / "data" / "rbmc.json"
+    d = json.loads(caminho.read_text(encoding="utf-8"), parse_constant=recusa)
+    assert len(d["estacoes"]) >= 10
+    assert all(-90 <= e["lat"] <= 90 and -180 <= e["lon"] <= 180 for e in d["estacoes"])
