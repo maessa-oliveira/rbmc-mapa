@@ -1,14 +1,14 @@
 {
- "atualizado_em": "2026-11-03T17:08:09+00:00",
+ "atualizado_em": "2026-11-04T17:20:20+00:00",
  "fonte": "IBGE — Rede Brasileira de Monitoramento Contínuo dos Sistemas GNSS (RBMC)",
  "dias_consultados": [
+  "2026-11-03",
   "2026-11-02",
   "2026-11-01",
   "2026-10-31",
   "2026-10-30",
   "2026-10-29",
-  "2026-10-28",
-  "2026-10-27"
+  "2026-10-28"
  ],
  "estacoes": [
   {
@@ -219,7 +219,7 @@
    "antena": "TRM57971.00 NONE",
    "id": "AMUA",
    "log": "amua00bra_20241122.log",
-   "dias_com_dados": 5
+   "dias_com_dados": 4
   },
   {
    "nome": "Laranjal Do Jari",
@@ -414,7 +414,7 @@
    "antena": "TWIVC6050 SCIS",
    "id": "BAVC",
    "log": "bavc00bra_20241219.log",
-   "dias_com_dados": 4
+   "dias_com_dados": 3
   },
   {
    "nome": "BelãM",
@@ -459,7 +459,7 @@
    "antena": "TRM115000.00 NONE",
    "id": "BOAV",
    "log": "boav00bra_20230608.log",
-   "dias_com_dados": 5
+   "dias_com_dados": 6
   },
   {
    "nome": "Bom Jesus Da Lapa",
@@ -744,7 +744,7 @@
    "antena": "LEIAR10 NONE",
    "id": "GOJA",
    "log": "goja00bra_20230901.log",
-   "dias_com_dados": 4
+   "dias_com_dados": 6
   },
   {
    "nome": "Uruaçu",
@@ -1299,7 +1299,7 @@
    "antena": "TRM115000.00 NONE",
    "id": "MSDR",
    "log": "msdr00bra_20230531.log",
-   "dias_com_dados": 6
+   "dias_com_dados": 5
   },
   {
    "nome": "Campo Grande",
@@ -1854,7 +1854,7 @@
    "antena": "LEIAR10 NONE",
    "id": "PBPT",
    "log": "pbpt00bra_20231127.log",
-   "dias_com_dados": 6
+   "dias_com_dados": 7
   },
   {
    "nome": "Afogados Da Ingazeira",
@@ -2184,7 +2184,7 @@
    "antena": "TRM59800.00 NONE",
    "id": "RJRE",
    "log": "rjre00bra_20231130.log",
-   "dias_com_dados": 0
+   "dias_com_dados": 7
   },
   {
    "nome": "Laboratório Gravimetria Onrj - Vassouras",
@@ -2424,7 +2424,7 @@
    "antena": "TRM55971.00 NONE",
    "id": "SAGA",
    "log": "saga00bra_20230922.log",
-   "dias_com_dados": 4
+   "dias_com_dados": 3
   },
   {
    "nome": "Sao Luis",
@@ -2439,7 +2439,7 @@
    "antena": "TRM115000.00 NONE",
    "id": "SALU",
    "log": "salu00bra_20230608.log",
-   "dias_com_dados": 7
+   "dias_com_dados": 6
   },
   {
    "nome": "Salvador",
@@ -2604,7 +2604,7 @@
    "antena": "TRM115000.00 NONE",
    "id": "SEAJ",
    "log": "seaj00bra_20230602.log",
-   "dias_com_dados": 4
+   "dias_com_dados": 3
   },
   {
    "nome": "Sao Jose Do Rio Preto",
