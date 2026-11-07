@@ -1,14 +1,14 @@
 {
- "atualizado_em": "2026-11-06T16:50:40+00:00",
+ "atualizado_em": "2026-11-07T15:43:44+00:00",
  "fonte": "IBGE — Rede Brasileira de Monitoramento Contínuo dos Sistemas GNSS (RBMC)",
  "dias_consultados": [
+  "2026-11-06",
   "2026-11-05",
   "2026-11-04",
   "2026-11-03",
   "2026-11-02",
   "2026-11-01",
-  "2026-10-31",
-  "2026-10-30"
+  "2026-10-31"
  ],
  "estacoes": [
   {
@@ -264,7 +264,7 @@
    "antena": "TWIVC6050 SCIS",
    "id": "APS1",
    "log": "aps100bra_20240802.log",
-   "dias_com_dados": 5
+   "dias_com_dados": 4
   },
   {
    "nome": "Santana",
@@ -414,7 +414,7 @@
    "antena": "TWIVC6050 SCIS",
    "id": "BAVC",
    "log": "bavc00bra_20241219.log",
-   "dias_com_dados": 3
+   "dias_com_dados": 4
   },
   {
    "nome": "BelãM",
@@ -429,7 +429,7 @@
    "antena": "TRM115000.00 NONE",
    "id": "BELE",
    "log": "bele00bra_20240725.log",
-   "dias_com_dados": 5
+   "dias_com_dados": 4
   },
   {
    "nome": "Belem Inpe",
@@ -459,7 +459,7 @@
    "antena": "TRM115000.00 NONE",
    "id": "BOAV",
    "log": "boav00bra_20230608.log",
-   "dias_com_dados": 7
+   "dias_com_dados": 6
   },
   {
    "nome": "Bom Jesus Da Lapa",
@@ -504,7 +504,7 @@
    "antena": "LEIAT504 NONE",
    "id": "BRFT",
    "log": "brft00bra_20230206.log",
-   "dias_com_dados": 7
+   "dias_com_dados": 6
   },
   {
    "nome": "Euzébio",
@@ -1524,7 +1524,7 @@
    "antena": "LEIAR10 NONE",
    "id": "MTLA",
    "log": "mtla00bra_20231027.log",
-   "dias_com_dados": 5
+   "dias_com_dados": 4
   },
   {
    "nome": "Primavera Do Leste",
@@ -1539,7 +1539,7 @@
    "antena": "TRM59800.00 NONE",
    "id": "MTLE",
    "log": "mtle00bra_20220711.log",
-   "dias_com_dados": 1
+   "dias_com_dados": 2
   },
   {
    "nome": "Nova Mutum",
@@ -2034,7 +2034,7 @@
    "antena": "LEIAR10 NONE",
    "id": "PRCL",
    "log": "prcl00bra_20230920.log",
-   "dias_com_dados": 1
+   "dias_com_dados": 2
   },
   {
    "nome": "Cascavel",
@@ -2184,7 +2184,7 @@
    "antena": "TRM59800.00 NONE",
    "id": "RJRE",
    "log": "rjre00bra_20231130.log",
-   "dias_com_dados": 5
+   "dias_com_dados": 4
   },
   {
    "nome": "Laboratório Gravimetria Onrj - Vassouras",
@@ -2424,7 +2424,7 @@
    "antena": "TRM55971.00 NONE",
    "id": "SAGA",
    "log": "saga00bra_20230922.log",
-   "dias_com_dados": 1
+   "dias_com_dados": 0
   },
   {
    "nome": "Sao Luis",
@@ -2439,7 +2439,7 @@
    "antena": "TRM115000.00 NONE",
    "id": "SALU",
    "log": "salu00bra_20230608.log",
-   "dias_com_dados": 4
+   "dias_com_dados": 6
   },
   {
    "nome": "Salvador",
@@ -2499,7 +2499,7 @@
    "antena": "TRM55971.00 NONE",
    "id": "SCBL",
    "log": "scbl00bra_20230922.log",
-   "dias_com_dados": 6
+   "dias_com_dados": 5
   },
   {
    "nome": "Ifsc- Caçador",
@@ -3039,7 +3039,7 @@
    "antena": "LEIAR20 LEIM",
    "id": "UYAR",
    "log": "uyar00ury_20191112.log",
-   "dias_com_dados": 6
+   "dias_com_dados": 5
   },
   {
    "nome": "Uybu",
@@ -3069,7 +3069,7 @@
    "antena": "LEIAR20 LEIM",
    "id": "UYRB",
    "log": "uyrb00ury_20230201.log",
-   "dias_com_dados": 7
+   "dias_com_dados": 6
   },
   {
    "nome": "Uyri",
@@ -3084,7 +3084,7 @@
    "antena": "LEIAR20 LEIM",
    "id": "UYRI",
    "log": "uyri00ury_20191112.log",
-   "dias_com_dados": 6
+   "dias_com_dados": 5
   },
   {
    "nome": "Varginha",
@@ -3123,6 +3123,7 @@
   "MGJA",
   "PECA",
   "RJFB",
+  "ROCO",
   "STHA"
  ],
  "falhas": []
