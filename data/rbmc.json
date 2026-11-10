@@ -1,14 +1,14 @@
 {
- "atualizado_em": "2026-11-09T19:53:37+00:00",
+ "atualizado_em": "2026-11-10T17:07:12+00:00",
  "fonte": "IBGE — Rede Brasileira de Monitoramento Contínuo dos Sistemas GNSS (RBMC)",
  "dias_consultados": [
+  "2026-11-09",
   "2026-11-08",
   "2026-11-07",
   "2026-11-06",
   "2026-11-05",
   "2026-11-04",
-  "2026-11-03",
-  "2026-11-02"
+  "2026-11-03"
  ],
  "estacoes": [
   {
@@ -294,7 +294,7 @@
    "antena": "TRM115000.00 NONE",
    "id": "BABJ",
    "log": "babj00bra_20230531.log",
-   "dias_com_dados": 7
+   "dias_com_dados": 6
   },
   {
    "nome": "Barreiras",
@@ -399,7 +399,7 @@
    "antena": "TRM55971.00 NONE",
    "id": "BATF",
    "log": "batf00bra_20210429.log",
-   "dias_com_dados": 0
+   "dias_com_dados": 7
   },
   {
    "nome": "Vitória Da Conquista",
@@ -414,7 +414,7 @@
    "antena": "TWIVC6050 SCIS",
    "id": "BAVC",
    "log": "bavc00bra_20241219.log",
-   "dias_com_dados": 6
+   "dias_com_dados": 7
   },
   {
    "nome": "BelãM",
@@ -429,7 +429,7 @@
    "antena": "TRM115000.00 NONE",
    "id": "BELE",
    "log": "bele00bra_20240725.log",
-   "dias_com_dados": 2
+   "dias_com_dados": 1
   },
   {
    "nome": "Belem Inpe",
@@ -504,7 +504,7 @@
    "antena": "LEIAT504 NONE",
    "id": "BRFT",
    "log": "brft00bra_20230206.log",
-   "dias_com_dados": 4
+   "dias_com_dados": 3
   },
   {
    "nome": "Euzébio",
@@ -579,7 +579,7 @@
    "antena": "TPSCR.G3 NONE",
    "id": "CHPI",
    "log": "chpi00bra_20230301.log",
-   "dias_com_dados": 6
+   "dias_com_dados": 5
   },
   {
    "nome": "Coari - Uea",
@@ -624,7 +624,7 @@
    "antena": "TRM55971.00 NONE",
    "id": "CRAT",
    "log": "crat00bra_20210429.log",
-   "dias_com_dados": 7
+   "dias_com_dados": 6
   },
   {
    "nome": "Cruzeiro Do Sul",
@@ -1389,7 +1389,7 @@
    "antena": "TRM59800.00 NONE",
    "id": "MSPM",
    "log": "mspm00bra_20190225.log",
-   "dias_com_dados": 4
+   "dias_com_dados": 5
   },
   {
    "nome": "Ponta Pora",
@@ -1524,7 +1524,7 @@
    "antena": "LEIAR10 NONE",
    "id": "MTLA",
    "log": "mtla00bra_20231027.log",
-   "dias_com_dados": 2
+   "dias_com_dados": 1
   },
   {
    "nome": "Primavera Do Leste",
@@ -1539,7 +1539,7 @@
    "antena": "TRM59800.00 NONE",
    "id": "MTLE",
    "log": "mtle00bra_20220711.log",
-   "dias_com_dados": 4
+   "dias_com_dados": 5
   },
   {
    "nome": "Nova Mutum",
@@ -1914,7 +1914,7 @@
    "antena": "TRM41249.00 NONE",
    "id": "PICR",
    "log": "picr00bra_20141105.log",
-   "dias_com_dados": 6
+   "dias_com_dados": 5
   },
   {
    "nome": "Floriano",
@@ -1974,7 +1974,7 @@
    "antena": "TRM115000.00 NONE",
    "id": "POAL",
    "log": "poal00bra_20230608.log",
-   "dias_com_dados": 6
+   "dias_com_dados": 7
   },
   {
    "nome": "Politecnica Usp",
@@ -2034,7 +2034,7 @@
    "antena": "LEIAR10 NONE",
    "id": "PRCL",
    "log": "prcl00bra_20230920.log",
-   "dias_com_dados": 4
+   "dias_com_dados": 5
   },
   {
    "nome": "Cascavel",
@@ -2169,7 +2169,7 @@
    "antena": "TRM115000.00 NONE",
    "id": "RJNI",
    "log": "rjni00bra_20230602.log",
-   "dias_com_dados": 6
+   "dias_com_dados": 7
   },
   {
    "nome": "Resende",
@@ -2184,7 +2184,7 @@
    "antena": "TRM59800.00 NONE",
    "id": "RJRE",
    "log": "rjre00bra_20231130.log",
-   "dias_com_dados": 2
+   "dias_com_dados": 1
   },
   {
    "nome": "Laboratório Gravimetria Onrj - Vassouras",
@@ -2244,7 +2244,7 @@
    "antena": "TRM59800.00 NONE",
    "id": "RNPF",
    "log": "rnpf00bra_20220909.log",
-   "dias_com_dados": 6
+   "dias_com_dados": 7
   },
   {
    "nome": "Colorado Dâ´Oeste",
@@ -2439,7 +2439,7 @@
    "antena": "TRM115000.00 NONE",
    "id": "SALU",
    "log": "salu00bra_20230608.log",
-   "dias_com_dados": 6
+   "dias_com_dados": 7
   },
   {
    "nome": "Salvador",
@@ -2499,7 +2499,7 @@
    "antena": "TRM55971.00 NONE",
    "id": "SCBL",
    "log": "scbl00bra_20230922.log",
-   "dias_com_dados": 3
+   "dias_com_dados": 2
   },
   {
    "nome": "Ifsc- Caçador",
