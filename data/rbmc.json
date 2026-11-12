@@ -1,14 +1,14 @@
 {
- "atualizado_em": "2026-11-11T17:14:23+00:00",
+ "atualizado_em": "2026-11-12T17:39:05+00:00",
  "fonte": "IBGE — Rede Brasileira de Monitoramento Contínuo dos Sistemas GNSS (RBMC)",
  "dias_consultados": [
+  "2026-11-11",
   "2026-11-10",
   "2026-11-09",
   "2026-11-08",
   "2026-11-07",
   "2026-11-06",
-  "2026-11-05",
-  "2026-11-04"
+  "2026-11-05"
  ],
  "estacoes": [
   {
@@ -504,7 +504,7 @@
    "antena": "LEIAT504 NONE",
    "id": "BRFT",
    "log": "brft00bra_20230206.log",
-   "dias_com_dados": 2
+   "dias_com_dados": 1
   },
   {
    "nome": "Euzébio",
@@ -579,7 +579,7 @@
    "antena": "TPSCR.G3 NONE",
    "id": "CHPI",
    "log": "chpi00bra_20230301.log",
-   "dias_com_dados": 4
+   "dias_com_dados": 3
   },
   {
    "nome": "Coari - Uea",
@@ -1299,7 +1299,7 @@
    "antena": "TRM115000.00 NONE",
    "id": "MSDR",
    "log": "msdr00bra_20230531.log",
-   "dias_com_dados": 6
+   "dias_com_dados": 5
   },
   {
    "nome": "Campo Grande",
@@ -1539,7 +1539,7 @@
    "antena": "TRM59800.00 NONE",
    "id": "MTLE",
    "log": "mtle00bra_20220711.log",
-   "dias_com_dados": 6
+   "dias_com_dados": 7
   },
   {
    "nome": "Nova Mutum",
@@ -1719,7 +1719,7 @@
    "antena": "TWIVC6050 SCIS",
    "id": "PAAR",
    "log": "paar00bra_20240717.log",
-   "dias_com_dados": 3
+   "dias_com_dados": 2
   },
   {
    "nome": "Altamira",
@@ -1884,7 +1884,7 @@
    "antena": "TRM59800.00 NONE",
    "id": "PEPE",
    "log": "pepe00bra_20220325.log",
-   "dias_com_dados": 6
+   "dias_com_dados": 5
   },
   {
    "nome": "Recife - Ifpe",
@@ -2034,7 +2034,7 @@
    "antena": "LEIAR10 NONE",
    "id": "PRCL",
    "log": "prcl00bra_20230920.log",
-   "dias_com_dados": 6
+   "dias_com_dados": 7
   },
   {
    "nome": "Cascavel",
@@ -2499,7 +2499,7 @@
    "antena": "TRM55971.00 NONE",
    "id": "SCBL",
    "log": "scbl00bra_20230922.log",
-   "dias_com_dados": 1
+   "dias_com_dados": 0
   },
   {
    "nome": "Ifsc- Caçador",
@@ -2604,7 +2604,7 @@
    "antena": "TRM115000.00 NONE",
    "id": "SEAJ",
    "log": "seaj00bra_20230602.log",
-   "dias_com_dados": 0
+   "dias_com_dados": 1
   },
   {
    "nome": "Sao Jose Do Rio Preto",
@@ -2889,7 +2889,7 @@
    "antena": "TRM59800.00 NONE",
    "id": "SSA1",
    "log": "ssa100bra_20241122.log",
-   "dias_com_dados": 7
+   "dias_com_dados": 6
   },
   {
    "nome": "San Vicente",
@@ -3039,7 +3039,7 @@
    "antena": "LEIAR20 LEIM",
    "id": "UYAR",
    "log": "uyar00ury_20191112.log",
-   "dias_com_dados": 6
+   "dias_com_dados": 5
   },
   {
    "nome": "Uybu",
