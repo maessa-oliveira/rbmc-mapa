@@ -1,14 +1,14 @@
 {
- "atualizado_em": "2026-11-13T17:17:01+00:00",
+ "atualizado_em": "2026-11-14T16:02:37+00:00",
  "fonte": "IBGE — Rede Brasileira de Monitoramento Contínuo dos Sistemas GNSS (RBMC)",
  "dias_consultados": [
+  "2026-11-13",
   "2026-11-12",
   "2026-11-11",
   "2026-11-10",
   "2026-11-09",
   "2026-11-08",
-  "2026-11-07",
-  "2026-11-06"
+  "2026-11-07"
  ],
  "estacoes": [
   {
@@ -264,7 +264,7 @@
    "antena": "TWIVC6050 SCIS",
    "id": "APS1",
    "log": "aps100bra_20240802.log",
-   "dias_com_dados": 6
+   "dias_com_dados": 7
   },
   {
    "nome": "Santana",
@@ -595,21 +595,6 @@
    "id": "COAM",
    "log": "coam00bra_20180426.log",
    "dias_com_dados": 0
-  },
-  {
-   "nome": "Corumba - Ufms",
-   "cidade": "Corumba",
-   "uf": "Mato Grosso Do Sul",
-   "pais": "BRA",
-   "lat": -19.00028056,
-   "lon": -57.62961389,
-   "h": 156.5,
-   "receptor": "TRIMBLE NETR9",
-   "sistemas": "GPS+GLO+GAL+BDS+SBAS",
-   "antena": "TRM115000.00 NONE",
-   "id": "CORU",
-   "log": "coru00bra_20230531.log",
-   "dias_com_dados": 7
   },
   {
    "nome": "Crato",
@@ -1104,7 +1089,7 @@
    "antena": "LEIAR10 NONE",
    "id": "MGMC",
    "log": "mgmc00bra_20240802.log",
-   "dias_com_dados": 0
+   "dias_com_dados": 1
   },
   {
    "nome": "Monte Carmelo",
@@ -1299,7 +1284,7 @@
    "antena": "TRM115000.00 NONE",
    "id": "MSDR",
    "log": "msdr00bra_20230531.log",
-   "dias_com_dados": 7
+   "dias_com_dados": 6
   },
   {
    "nome": "Campo Grande",
@@ -1884,7 +1869,7 @@
    "antena": "TRM59800.00 NONE",
    "id": "PEPE",
    "log": "pepe00bra_20220325.log",
-   "dias_com_dados": 4
+   "dias_com_dados": 3
   },
   {
    "nome": "Recife - Ifpe",
@@ -2604,7 +2589,7 @@
    "antena": "TRM115000.00 NONE",
    "id": "SEAJ",
    "log": "seaj00bra_20230602.log",
-   "dias_com_dados": 2
+   "dias_com_dados": 3
   },
   {
    "nome": "Sao Jose Do Rio Preto",
@@ -2889,7 +2874,7 @@
    "antena": "TRM59800.00 NONE",
    "id": "SSA1",
    "log": "ssa100bra_20241122.log",
-   "dias_com_dados": 5
+   "dias_com_dados": 4
   },
   {
    "nome": "San Vicente",
@@ -3039,7 +3024,7 @@
    "antena": "LEIAR20 LEIM",
    "id": "UYAR",
    "log": "uyar00ury_20191112.log",
-   "dias_com_dados": 5
+   "dias_com_dados": 4
   },
   {
    "nome": "Uybu",
@@ -3054,7 +3039,7 @@
    "antena": "TPSCR.G5 TPSH",
    "id": "UYBU",
    "log": "uybu00ury_20210601.log",
-   "dias_com_dados": 7
+   "dias_com_dados": 6
   },
   {
    "nome": "Uyrb",
@@ -3069,7 +3054,7 @@
    "antena": "LEIAR20 LEIM",
    "id": "UYRB",
    "log": "uyrb00ury_20230201.log",
-   "dias_com_dados": 7
+   "dias_com_dados": 6
   },
   {
    "nome": "Uyri",
@@ -3084,7 +3069,7 @@
    "antena": "LEIAR20 LEIM",
    "id": "UYRI",
    "log": "uyri00ury_20191112.log",
-   "dias_com_dados": 7
+   "dias_com_dados": 6
   },
   {
    "nome": "Varginha",
@@ -3126,5 +3111,7 @@
   "ROCO",
   "STHA"
  ],
- "falhas": []
+ "falhas": [
+  "CORU: Falha ao baixar https://geoftp.ibge.gov.br/informacoes_sobre_posicionamento_geodesico/rbmc/relatorio/log_sirgas/coru00bra_20230531.log: <urlopen error [Errno 104] Connection reset by peer>"
+ ]
 }
