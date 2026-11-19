@@ -1,14 +1,14 @@
 {
- "atualizado_em": "2026-11-18T18:13:05+00:00",
+ "atualizado_em": "2026-11-19T18:22:19+00:00",
  "fonte": "IBGE — Rede Brasileira de Monitoramento Contínuo dos Sistemas GNSS (RBMC)",
  "dias_consultados": [
+  "2026-11-18",
   "2026-11-17",
   "2026-11-16",
   "2026-11-15",
   "2026-11-14",
   "2026-11-13",
-  "2026-11-12",
-  "2026-11-11"
+  "2026-11-12"
  ],
  "estacoes": [
   {
@@ -234,7 +234,7 @@
    "antena": "TRM59800.00 NONE",
    "id": "APLJ",
    "log": "aplj00bra_20210616.log",
-   "dias_com_dados": 7
+   "dias_com_dados": 6
   },
   {
    "nome": "Macapa - Dtcea",
@@ -1104,7 +1104,7 @@
    "antena": "LEIAR10 NONE",
    "id": "MGMC",
    "log": "mgmc00bra_20240802.log",
-   "dias_com_dados": 5
+   "dias_com_dados": 6
   },
   {
    "nome": "Monte Carmelo",
@@ -1944,7 +1944,7 @@
    "antena": "TRM55971.00 NONE",
    "id": "PISR",
    "log": "pisr00bra_20210512.log",
-   "dias_com_dados": 7
+   "dias_com_dados": 6
   },
   {
    "nome": "Teresina",
@@ -2199,7 +2199,7 @@
    "antena": "TRM57971.00 NONE",
    "id": "RJVA",
    "log": "rjva00bra_20191014.log",
-   "dias_com_dados": 6
+   "dias_com_dados": 5
   },
   {
    "nome": "Mossoro",
@@ -2244,7 +2244,7 @@
    "antena": "TRM59800.00 NONE",
    "id": "RNPF",
    "log": "rnpf00bra_20220909.log",
-   "dias_com_dados": 7
+   "dias_com_dados": 6
   },
   {
    "nome": "Colorado Dâ´Oeste",
@@ -2424,7 +2424,7 @@
    "antena": "TRM55971.00 NONE",
    "id": "SAGA",
    "log": "saga00bra_20230922.log",
-   "dias_com_dados": 3
+   "dias_com_dados": 5
   },
   {
    "nome": "Sao Luis",
@@ -2889,7 +2889,7 @@
    "antena": "TRM59800.00 NONE",
    "id": "SSA1",
    "log": "ssa100bra_20241122.log",
-   "dias_com_dados": 0
+   "dias_com_dados": 5
   },
   {
    "nome": "San Vicente",
