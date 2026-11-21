@@ -1,14 +1,14 @@
 {
- "atualizado_em": "2026-11-20T17:53:42+00:00",
+ "atualizado_em": "2026-11-21T16:51:00+00:00",
  "fonte": "IBGE — Rede Brasileira de Monitoramento Contínuo dos Sistemas GNSS (RBMC)",
  "dias_consultados": [
+  "2026-11-20",
   "2026-11-19",
   "2026-11-18",
   "2026-11-17",
   "2026-11-16",
   "2026-11-15",
-  "2026-11-14",
-  "2026-11-13"
+  "2026-11-14"
  ],
  "estacoes": [
   {
@@ -234,7 +234,7 @@
    "antena": "TRM59800.00 NONE",
    "id": "APLJ",
    "log": "aplj00bra_20210616.log",
-   "dias_com_dados": 5
+   "dias_com_dados": 4
   },
   {
    "nome": "Macapa - Dtcea",
@@ -399,7 +399,7 @@
    "antena": "TRM55971.00 NONE",
    "id": "BATF",
    "log": "batf00bra_20210429.log",
-   "dias_com_dados": 6
+   "dias_com_dados": 5
   },
   {
    "nome": "Vitória Da Conquista",
@@ -519,7 +519,7 @@
    "antena": "SEPCHOKE_B3E6 SPKE",
    "id": "CEEU",
    "log": "ceeu00bra_20221128.log",
-   "dias_com_dados": 6
+   "dias_com_dados": 7
   },
   {
    "nome": "Vitoria",
@@ -669,7 +669,7 @@
    "antena": "TRM59800.00 NONE",
    "id": "EACH",
    "log": "each00bra_20180510.log",
-   "dias_com_dados": 6
+   "dias_com_dados": 5
   },
   {
    "nome": "Escola De Engenharia De São Carlos",
@@ -1299,7 +1299,7 @@
    "antena": "TRM115000.00 NONE",
    "id": "MSDR",
    "log": "msdr00bra_20230531.log",
-   "dias_com_dados": 4
+   "dias_com_dados": 5
   },
   {
    "nome": "Campo Grande",
@@ -1719,7 +1719,7 @@
    "antena": "TWIVC6050 SCIS",
    "id": "PAAR",
    "log": "paar00bra_20240717.log",
-   "dias_com_dados": 3
+   "dias_com_dados": 2
   },
   {
    "nome": "Altamira",
@@ -1944,7 +1944,7 @@
    "antena": "TRM55971.00 NONE",
    "id": "PISR",
    "log": "pisr00bra_20210512.log",
-   "dias_com_dados": 5
+   "dias_com_dados": 4
   },
   {
    "nome": "Teresina",
@@ -2199,7 +2199,7 @@
    "antena": "TRM57971.00 NONE",
    "id": "RJVA",
    "log": "rjva00bra_20191014.log",
-   "dias_com_dados": 4
+   "dias_com_dados": 3
   },
   {
    "nome": "Mossoro",
@@ -2424,7 +2424,7 @@
    "antena": "TRM55971.00 NONE",
    "id": "SAGA",
    "log": "saga00bra_20230922.log",
-   "dias_com_dados": 6
+   "dias_com_dados": 7
   },
   {
    "nome": "Sao Luis",
@@ -2889,7 +2889,7 @@
    "antena": "TRM59800.00 NONE",
    "id": "SSA1",
    "log": "ssa100bra_20241122.log",
-   "dias_com_dados": 6
+   "dias_com_dados": 7
   },
   {
    "nome": "San Vicente",
@@ -3054,7 +3054,7 @@
    "antena": "TPSCR.G5 TPSH",
    "id": "UYBU",
    "log": "uybu00ury_20210601.log",
-   "dias_com_dados": 6
+   "dias_com_dados": 5
   },
   {
    "nome": "Uyrb",
