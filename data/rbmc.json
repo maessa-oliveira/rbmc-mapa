@@ -1,14 +1,14 @@
 {
- "atualizado_em": "2026-11-21T16:51:00+00:00",
+ "atualizado_em": "2026-11-22T17:14:30+00:00",
  "fonte": "IBGE — Rede Brasileira de Monitoramento Contínuo dos Sistemas GNSS (RBMC)",
  "dias_consultados": [
+  "2026-11-21",
   "2026-11-20",
   "2026-11-19",
   "2026-11-18",
   "2026-11-17",
   "2026-11-16",
-  "2026-11-15",
-  "2026-11-14"
+  "2026-11-15"
  ],
  "estacoes": [
   {
@@ -69,7 +69,7 @@
    "antena": "TRM55971.00 NONE",
    "id": "AMCO",
    "log": "amco00bra_20230929.log",
-   "dias_com_dados": 5
+   "dias_com_dados": 6
   },
   {
    "nome": "Coari - Ibge",
@@ -234,7 +234,7 @@
    "antena": "TRM59800.00 NONE",
    "id": "APLJ",
    "log": "aplj00bra_20210616.log",
-   "dias_com_dados": 4
+   "dias_com_dados": 3
   },
   {
    "nome": "Macapa - Dtcea",
@@ -294,7 +294,7 @@
    "antena": "TRM115000.00 NONE",
    "id": "BABJ",
    "log": "babj00bra_20230531.log",
-   "dias_com_dados": 7
+   "dias_com_dados": 6
   },
   {
    "nome": "Barreiras",
@@ -399,7 +399,7 @@
    "antena": "TRM55971.00 NONE",
    "id": "BATF",
    "log": "batf00bra_20210429.log",
-   "dias_com_dados": 5
+   "dias_com_dados": 4
   },
   {
    "nome": "Vitória Da Conquista",
@@ -489,7 +489,7 @@
    "antena": "LEIAR10 NONE",
    "id": "BRAZ",
    "log": "braz00bra_20240515.log",
-   "dias_com_dados": 5
+   "dias_com_dados": 6
   },
   {
    "nome": "Fortaleza 2005",
@@ -669,7 +669,7 @@
    "antena": "TRM59800.00 NONE",
    "id": "EACH",
    "log": "each00bra_20180510.log",
-   "dias_com_dados": 5
+   "dias_com_dados": 4
   },
   {
    "nome": "Escola De Engenharia De São Carlos",
@@ -1389,7 +1389,7 @@
    "antena": "TRM59800.00 NONE",
    "id": "MSPM",
    "log": "mspm00bra_20190225.log",
-   "dias_com_dados": 6
+   "dias_com_dados": 5
   },
   {
    "nome": "Ponta Pora",
@@ -1719,7 +1719,7 @@
    "antena": "TWIVC6050 SCIS",
    "id": "PAAR",
    "log": "paar00bra_20240717.log",
-   "dias_com_dados": 2
+   "dias_com_dados": 1
   },
   {
    "nome": "Altamira",
@@ -1944,7 +1944,7 @@
    "antena": "TRM55971.00 NONE",
    "id": "PISR",
    "log": "pisr00bra_20210512.log",
-   "dias_com_dados": 4
+   "dias_com_dados": 3
   },
   {
    "nome": "Teresina",
@@ -2064,7 +2064,7 @@
    "antena": "TRM115000.00 NONE",
    "id": "PRGU",
    "log": "prgu00bra_20230531.log",
-   "dias_com_dados": 7
+   "dias_com_dados": 6
   },
   {
    "nome": "Maringã¡",
@@ -2199,7 +2199,7 @@
    "antena": "TRM57971.00 NONE",
    "id": "RJVA",
    "log": "rjva00bra_20191014.log",
-   "dias_com_dados": 3
+   "dias_com_dados": 2
   },
   {
    "nome": "Mossoro",
@@ -2874,7 +2874,7 @@
    "antena": "TRM57971.00 NONE",
    "id": "SPTU",
    "log": "sptu00bra_20200513.log",
-   "dias_com_dados": 6
+   "dias_com_dados": 7
   },
   {
    "nome": "Salvador Capitania",
@@ -3054,7 +3054,7 @@
    "antena": "TPSCR.G5 TPSH",
    "id": "UYBU",
    "log": "uybu00ury_20210601.log",
-   "dias_com_dados": 5
+   "dias_com_dados": 4
   },
   {
    "nome": "Uyrb",
