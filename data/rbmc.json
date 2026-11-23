@@ -1,14 +1,14 @@
 {
- "atualizado_em": "2026-11-22T17:14:30+00:00",
+ "atualizado_em": "2026-11-23T21:30:13+00:00",
  "fonte": "IBGE — Rede Brasileira de Monitoramento Contínuo dos Sistemas GNSS (RBMC)",
  "dias_consultados": [
+  "2026-11-22",
   "2026-11-21",
   "2026-11-20",
   "2026-11-19",
   "2026-11-18",
   "2026-11-17",
-  "2026-11-16",
-  "2026-11-15"
+  "2026-11-16"
  ],
  "estacoes": [
   {
@@ -69,7 +69,7 @@
    "antena": "TRM55971.00 NONE",
    "id": "AMCO",
    "log": "amco00bra_20230929.log",
-   "dias_com_dados": 6
+   "dias_com_dados": 7
   },
   {
    "nome": "Coari - Ibge",
@@ -234,7 +234,7 @@
    "antena": "TRM59800.00 NONE",
    "id": "APLJ",
    "log": "aplj00bra_20210616.log",
-   "dias_com_dados": 3
+   "dias_com_dados": 2
   },
   {
    "nome": "Macapa - Dtcea",
@@ -309,7 +309,7 @@
    "antena": "LEIAR10 NONE",
    "id": "BABR",
    "log": "babr00bra_20240802.log",
-   "dias_com_dados": 6
+   "dias_com_dados": 7
   },
   {
    "nome": "Irece",
@@ -399,7 +399,7 @@
    "antena": "TRM55971.00 NONE",
    "id": "BATF",
    "log": "batf00bra_20210429.log",
-   "dias_com_dados": 4
+   "dias_com_dados": 3
   },
   {
    "nome": "Vitória Da Conquista",
@@ -489,7 +489,7 @@
    "antena": "LEIAR10 NONE",
    "id": "BRAZ",
    "log": "braz00bra_20240515.log",
-   "dias_com_dados": 6
+   "dias_com_dados": 7
   },
   {
    "nome": "Fortaleza 2005",
@@ -669,7 +669,7 @@
    "antena": "TRM59800.00 NONE",
    "id": "EACH",
    "log": "each00bra_20180510.log",
-   "dias_com_dados": 4
+   "dias_com_dados": 3
   },
   {
    "nome": "Escola De Engenharia De São Carlos",
@@ -1119,7 +1119,7 @@
    "antena": "TRM115000.00 NONE",
    "id": "MGMT",
    "log": "mgmt00bra_20220223.log",
-   "dias_com_dados": 6
+   "dias_com_dados": 7
   },
   {
    "nome": "Rio Paranaíba",
@@ -1299,7 +1299,7 @@
    "antena": "TRM115000.00 NONE",
    "id": "MSDR",
    "log": "msdr00bra_20230531.log",
-   "dias_com_dados": 5
+   "dias_com_dados": 6
   },
   {
    "nome": "Campo Grande",
@@ -1389,7 +1389,7 @@
    "antena": "TRM59800.00 NONE",
    "id": "MSPM",
    "log": "mspm00bra_20190225.log",
-   "dias_com_dados": 5
+   "dias_com_dados": 6
   },
   {
    "nome": "Ponta Pora",
@@ -1719,7 +1719,7 @@
    "antena": "TWIVC6050 SCIS",
    "id": "PAAR",
    "log": "paar00bra_20240717.log",
-   "dias_com_dados": 1
+   "dias_com_dados": 0
   },
   {
    "nome": "Altamira",
@@ -1944,7 +1944,7 @@
    "antena": "TRM55971.00 NONE",
    "id": "PISR",
    "log": "pisr00bra_20210512.log",
-   "dias_com_dados": 3
+   "dias_com_dados": 2
   },
   {
    "nome": "Teresina",
@@ -2199,7 +2199,7 @@
    "antena": "TRM57971.00 NONE",
    "id": "RJVA",
    "log": "rjva00bra_20191014.log",
-   "dias_com_dados": 2
+   "dias_com_dados": 1
   },
   {
    "nome": "Mossoro",
@@ -2439,7 +2439,7 @@
    "antena": "TRM115000.00 NONE",
    "id": "SALU",
    "log": "salu00bra_20230608.log",
-   "dias_com_dados": 7
+   "dias_com_dados": 6
   },
   {
    "nome": "Salvador",
@@ -2619,7 +2619,7 @@
    "antena": "TRM41249.00 NONE",
    "id": "SJRP",
    "log": "sjrp00bra_20240717.log",
-   "dias_com_dados": 7
+   "dias_com_dados": 6
   },
   {
    "nome": "Sao Jose Dos Campos",
@@ -3054,7 +3054,7 @@
    "antena": "TPSCR.G5 TPSH",
    "id": "UYBU",
    "log": "uybu00ury_20210601.log",
-   "dias_com_dados": 4
+   "dias_com_dados": 3
   },
   {
    "nome": "Uyrb",
@@ -3069,7 +3069,7 @@
    "antena": "LEIAR20 LEIM",
    "id": "UYRB",
    "log": "uyrb00ury_20230201.log",
-   "dias_com_dados": 6
+   "dias_com_dados": 7
   },
   {
    "nome": "Uyri",
@@ -3084,7 +3084,7 @@
    "antena": "LEIAR20 LEIM",
    "id": "UYRI",
    "log": "uyri00ury_20191112.log",
-   "dias_com_dados": 6
+   "dias_com_dados": 7
   },
   {
    "nome": "Varginha",
