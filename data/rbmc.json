@@ -1,14 +1,14 @@
 {
- "atualizado_em": "2026-11-23T21:30:13+00:00",
+ "atualizado_em": "2026-11-24T20:13:25+00:00",
  "fonte": "IBGE — Rede Brasileira de Monitoramento Contínuo dos Sistemas GNSS (RBMC)",
  "dias_consultados": [
+  "2026-11-23",
   "2026-11-22",
   "2026-11-21",
   "2026-11-20",
   "2026-11-19",
   "2026-11-18",
-  "2026-11-17",
-  "2026-11-16"
+  "2026-11-17"
  ],
  "estacoes": [
   {
@@ -234,7 +234,7 @@
    "antena": "TRM59800.00 NONE",
    "id": "APLJ",
    "log": "aplj00bra_20210616.log",
-   "dias_com_dados": 2
+   "dias_com_dados": 1
   },
   {
    "nome": "Macapa - Dtcea",
@@ -669,7 +669,7 @@
    "antena": "TRM59800.00 NONE",
    "id": "EACH",
    "log": "each00bra_20180510.log",
-   "dias_com_dados": 3
+   "dias_com_dados": 7
   },
   {
    "nome": "Escola De Engenharia De São Carlos",
@@ -759,7 +759,7 @@
    "antena": "TWIVC6050 SCIS",
    "id": "GOUR",
    "log": "gour00bra_20241122.log",
-   "dias_com_dados": 7
+   "dias_com_dados": 6
   },
   {
    "nome": "Guaira",
@@ -1389,7 +1389,7 @@
    "antena": "TRM59800.00 NONE",
    "id": "MSPM",
    "log": "mspm00bra_20190225.log",
-   "dias_com_dados": 6
+   "dias_com_dados": 5
   },
   {
    "nome": "Ponta Pora",
@@ -1854,7 +1854,7 @@
    "antena": "LEIAR10 NONE",
    "id": "PBPT",
    "log": "pbpt00bra_20231127.log",
-   "dias_com_dados": 6
+   "dias_com_dados": 7
   },
   {
    "nome": "Afogados Da Ingazeira",
@@ -1914,7 +1914,7 @@
    "antena": "TRM41249.00 NONE",
    "id": "PICR",
    "log": "picr00bra_20141105.log",
-   "dias_com_dados": 7
+   "dias_com_dados": 6
   },
   {
    "nome": "Floriano",
@@ -1944,7 +1944,7 @@
    "antena": "TRM55971.00 NONE",
    "id": "PISR",
    "log": "pisr00bra_20210512.log",
-   "dias_com_dados": 2
+   "dias_com_dados": 1
   },
   {
    "nome": "Teresina",
@@ -2199,7 +2199,7 @@
    "antena": "TRM57971.00 NONE",
    "id": "RJVA",
    "log": "rjva00bra_20191014.log",
-   "dias_com_dados": 1
+   "dias_com_dados": 0
   },
   {
    "nome": "Mossoro",
@@ -2619,7 +2619,7 @@
    "antena": "TRM41249.00 NONE",
    "id": "SJRP",
    "log": "sjrp00bra_20240717.log",
-   "dias_com_dados": 6
+   "dias_com_dados": 7
   },
   {
    "nome": "Sao Jose Dos Campos",
@@ -3054,7 +3054,7 @@
    "antena": "TPSCR.G5 TPSH",
    "id": "UYBU",
    "log": "uybu00ury_20210601.log",
-   "dias_com_dados": 3
+   "dias_com_dados": 2
   },
   {
    "nome": "Uyrb",
