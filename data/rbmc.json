@@ -1,14 +1,14 @@
 {
- "atualizado_em": "2026-11-27T19:04:24+00:00",
+ "atualizado_em": "2026-11-28T17:38:15+00:00",
  "fonte": "IBGE — Rede Brasileira de Monitoramento Contínuo dos Sistemas GNSS (RBMC)",
  "dias_consultados": [
+  "2026-11-27",
   "2026-11-26",
   "2026-11-25",
   "2026-11-24",
   "2026-11-23",
   "2026-11-22",
-  "2026-11-21",
-  "2026-11-20"
+  "2026-11-21"
  ],
  "estacoes": [
   {
@@ -24,7 +24,7 @@
    "antena": "TRM55971.00 NONE",
    "id": "ALAR",
    "log": "alar00bra_20170925.log",
-   "dias_com_dados": 4
+   "dias_com_dados": 3
   },
   {
    "nome": "Maceio",
@@ -189,7 +189,7 @@
    "antena": "TRM115000.00 NONE",
    "id": "AMTE",
    "log": "amte00bra_20230531.log",
-   "dias_com_dados": 4
+   "dias_com_dados": 3
   },
   {
    "nome": "Tabatinga - Ifam",
@@ -1389,7 +1389,7 @@
    "antena": "TRM59800.00 NONE",
    "id": "MSPM",
    "log": "mspm00bra_20190225.log",
-   "dias_com_dados": 5
+   "dias_com_dados": 4
   },
   {
    "nome": "Ponta Pora",
@@ -1524,7 +1524,7 @@
    "antena": "LEIAR10 NONE",
    "id": "MTLA",
    "log": "mtla00bra_20231027.log",
-   "dias_com_dados": 3
+   "dias_com_dados": 4
   },
   {
    "nome": "Primavera Do Leste",
@@ -1914,7 +1914,7 @@
    "antena": "TRM41249.00 NONE",
    "id": "PICR",
    "log": "picr00bra_20141105.log",
-   "dias_com_dados": 3
+   "dias_com_dados": 2
   },
   {
    "nome": "Floriano",
@@ -1929,7 +1929,7 @@
    "antena": "TRM59800.00 NONE",
    "id": "PIFL",
    "log": "pifl00bra_20241122.log",
-   "dias_com_dados": 5
+   "dias_com_dados": 4
   },
   {
    "nome": "Sã£O Raimundo Nonato",
@@ -2169,7 +2169,7 @@
    "antena": "TRM115000.00 NONE",
    "id": "RJNI",
    "log": "rjni00bra_20230602.log",
-   "dias_com_dados": 6
+   "dias_com_dados": 5
   },
   {
    "nome": "Resende",
@@ -2844,7 +2844,7 @@
    "antena": "LEIAR10 NONE",
    "id": "SPS1",
    "log": "sps100bra_20210628.log",
-   "dias_com_dados": 4
+   "dias_com_dados": 5
   },
   {
    "nome": "Sorocaba",
@@ -2934,7 +2934,7 @@
    "antena": "TRM115000.00 NONE",
    "id": "TOPL",
    "log": "topl00bra_20230809.log",
-   "dias_com_dados": 1
+   "dias_com_dados": 2
   },
   {
    "nome": "Ubatuba_Maregrafo",
@@ -3069,7 +3069,7 @@
    "antena": "LEIAR20 LEIM",
    "id": "UYRB",
    "log": "uyrb00ury_20230201.log",
-   "dias_com_dados": 7
+   "dias_com_dados": 6
   },
   {
    "nome": "Uyri",
@@ -3084,7 +3084,7 @@
    "antena": "LEIAR20 LEIM",
    "id": "UYRI",
    "log": "uyri00ury_20191112.log",
-   "dias_com_dados": 7
+   "dias_com_dados": 6
   },
   {
    "nome": "Varginha",
